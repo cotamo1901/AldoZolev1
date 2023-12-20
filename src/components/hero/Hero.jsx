@@ -12,14 +12,21 @@ export const Hero = () => {
           alt="img"
           className="custom-img"
         />
-        <h3 className="custom-heading">Desde el 25 de diciembre</h3>
+        <h3 className="custom-heading ">Desde el 25 de diciembre</h3>
       </div>
 
       <div className="countdown-container">
         <div>
-          <Countdown />
+          < Countdown />
         </div>
-        <div>{/* Otro contenido */}</div>
+        <div>
+        <img
+          src="../../../public/img/energy.svg"
+          alt="img"
+          className="energy-img"
+        
+        />
+          </div>
       </div>
     </section>
   );
