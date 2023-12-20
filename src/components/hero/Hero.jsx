@@ -1,22 +1,24 @@
+// Hero.jsx
+
 import Countdown from "../countdown/Countdown";
+import "./Hero.css";
 
 export const Hero = () => {
   return (
-    <section className="flex"
-    >
+    <section className="hero-container">
       <div>
-        <img src="../../../public/img/tao.png" alt="img"  className="w-1/2 h-auto"/>
-        <h3 className="text-3xl font-semibold text-blueGray-700">
+        <img src="../../../public/img/tao.png" alt="img" className="custom-img" />
+        <h3 className="custom-heading">
           desde el 25 de diciembre
         </h3>
       </div>
 
-      <div>
+      <div className="countdown-container">
         <div>
-            <Countdown />
+          <Countdown />
         </div>
         <div>
-
+          {/* Otro contenido */}
         </div>
       </div>
     </section>

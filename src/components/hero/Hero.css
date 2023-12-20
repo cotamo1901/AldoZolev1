@@ -1,0 +1,17 @@
+
+
+.hero-container {
+  display: flex;
+}
+
+.custom-img {
+  width: 100%;
+  height: auto; 
+
+}
+
+.custom-heading {
+  font-size: 1.875rem; 
+  font-weight: 600;
+  color: #374151; 
+}
