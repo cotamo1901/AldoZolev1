@@ -1,17 +1,19 @@
-
-
 .hero-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .custom-img {
   width: 100%;
-  height: auto; 
-
+  height: auto;
+  max-width: 366px;
+  border: 1px solid #80808091;
+  padding: 1rem;
 }
 
 .custom-heading {
-  font-size: 1.875rem; 
+  font-size: 1.875rem;
   font-weight: 600;
-  color: #374151; 
+  color: #374151;
 }
