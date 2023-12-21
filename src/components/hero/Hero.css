@@ -30,7 +30,7 @@
 .image__flyer {
   background-image: url(/public/img/energy.svg);
   width: 100%;
-  height: 24dvh;
+  height: 27dvh;
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -52,11 +52,12 @@
   }
   .countdown-container {
     width: 100%;
+    height: 68dvh;
   }
 
   .image__flyer {
     width: 100%;
-    height: 19dvh;
+    height: 23dvh;
     background-size: 99%;
   }
   .custom-heading {
