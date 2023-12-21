@@ -35,11 +35,11 @@ const Countdown = () => {
       <div className="w-full max-w-xl sm:px-1 min-w-full ">
         <div className="  p-3 sm:p-[1.3rem]  w-auto border-2	   border-stone-200 bg-[#f2f1ef]	 rounded-2xl">
           <h2 className="text-2xl font-bold mb-4 text-[#613625]">
-            La cuenta regresiva ha comenzado en:
+            ¡La cuenta regresiva ha comenzado, en:
           </h2>
           <div className="flex justify-start mb-4 font-bold">
             <p className="sm:text-2xl text-sm text-[#ba5f4d] text-left">
-              Conéctate a este viaje sonoro
+              Conéctate a este viaje sonoro!
             </p>
           </div>
           <div className="flex  justify-center sm:gap-1 gap-0 items-center ">
