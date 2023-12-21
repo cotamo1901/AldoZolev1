@@ -38,7 +38,7 @@ const Countdown = () => {
             La cuenta regresiva ha comenzado en:
           </h2>
           <div className="flex justify-start mb-4 font-bold">
-            <p className="text-sm text-[#ba5f4d] text-left">
+            <p className="sm:text-2xl text-sm text-[#ba5f4d] text-left">
               Conéctate a este viaje sonoro
             </p>
           </div>
