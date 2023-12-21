@@ -31,7 +31,7 @@ const Countdown = () => {
   }, []);
 
   return (
-    <div className="flex justify-center items-center sm:h-[36dvh] h-[48dvh]">
+    <div className="flex justify-center items-center sm:h-[38dvh] h-[40dvh]">
       <div className="w-full max-w-xl sm:px-1 min-w-full ">
         <div className="  p-3 sm:p-[1.3rem]  w-auto border-2	   border-stone-200 bg-[#f2f1ef]	 rounded-2xl">
           <h2 className="text-2xl font-bold mb-4 text-[#613625]">
@@ -89,7 +89,7 @@ const Countdown = () => {
             </div>
           </div>
           <div className="flex justify-start mt-4">
-            <button className="bg-[#ba5f4d] text-white px-4 py-2 rounded">
+            <button className="bg-[#ba5f4d] border-white border-solid hover:bg-gray-500   hover:border-[#000] hober:border-2 text-white px-4 py-2 rounded">
               Reservar
             </button>
           </div>

@@ -10,15 +10,23 @@
 .img__container {
   width: 30%;
 }
+
 .custom-img {
-  .custom-img {
-    width: 100%;
-    height: auto;
-    max-width: 475px;
-    border: 1px solid #80808091;
-    padding: 1rem;
-  }
+  width: 100%;
+  height: auto;
+  max-width: 473px;
+  border: 1px solid #80808091;
+  padding: 1rem;
+  padding: 1rem;
+  border: 2px solid rgba(0, 0, 0, 0.605);
+  transform: rotate(2deg);
+  transition: 0.3s ease-in-out;
 }
+.custom-img:hover {
+  transform: rotate(0deg) scale(1.1);
+  border: none;
+}
+
 .countdown-container {
   width: 45%;
 }
@@ -33,6 +41,9 @@
   height: 27dvh;
   background-size: 100%;
   background-repeat: no-repeat;
+}
+.image__flyer:hover {
+  transform: scale(1.1);
 }
 
 @media screen and (max-width: 968px) {
@@ -49,6 +60,7 @@
     margin-right: 0;
     height: auto;
     max-width: 18rem;
+    transform: rotate(0deg);
   }
   .countdown-container {
     width: 100%;
