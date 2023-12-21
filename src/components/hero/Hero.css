@@ -2,48 +2,80 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -180px;
+  flex-wrap: wrap;
+  height: 100dvh;
+  width: 100%;
+  gap: 20px;
+}
+.img__container {
+  width: 30%;
 }
 
 .custom-img {
   width: 100%;
   height: auto;
-  max-width: 600px;
+  max-width: 473px;
   border: 1px solid #80808091;
   padding: 1rem;
-  margin-right: 1rem;
-  margin-top: 200px;
+  padding: 1rem;
+  border: 2px solid rgba(0, 0, 0, 0.605);
+  transform: rotate(2deg);
+  transition: 0.3s ease-in-out;
+}
+.custom-img:hover {
+  transform: rotate(0deg) scale(1.1);
+  border: none;
 }
 
-.energy-img {
-  margin-left: 1rem;
-  margin-top: -13rem;
-  position: static;
+.countdown-container {
+  width: 45%;
 }
-
 .custom-heading {
   font-size: 1.875rem;
-  font-weight: 600;
-  color: #374151;
+  font-weight: 700;
+  color: var(--cafe);
+  text-transform: uppercase;
+}
+.image__flyer {
+  background-image: url(/public/img/energy.svg);
+  width: 100%;
+  height: 27dvh;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  transition: 0.3s ease-in-out;
+}
+.image__flyer:hover {
+  transform: scale(1.1);
 }
 
-
-@media (max-width: 768px) {
+@media screen and (max-width: 968px) {
   .hero-container {
-    flex-direction: column; 
-    align-items: center; 
-    margin-top: 0;
+    flex-direction: column;
+    height: auto;
   }
-
+  .img__container {
+    width: auto;
+    align-self: center;
+  }
   .custom-img {
     margin-top: 20px;
-    margin-right: 0; 
-  
+    margin-right: 0;
+    height: auto;
+    max-width: 18rem;
+    transform: rotate(0deg);
   }
- 
-  .energy-img {
-    margin-top: 10px; 
-    
-   
+  .countdown-container {
+    width: 100%;
+    height: 68dvh;
+  }
+
+  .image__flyer {
+    width: 100%;
+    height: 23dvh;
+    background-size: 99%;
+  }
+  .custom-heading {
+    text-align: center;
+    font-size: 1.4rem;
   }
 }

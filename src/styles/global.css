@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
 :root {
   --rosa-header: #c6a08d;
   --rosa-oscuro: #ba5f4d;
@@ -6,7 +8,11 @@
   --cafe-texto: #927067;
   --gris-claro: #dbdad6;
   --fondo:#fef3db;
+
+ /*texto de sitio */
+ --font: 'Roboto', sans-serif;
 }
+
 
 * {
   box-sizing: border-box;
@@ -20,4 +26,5 @@ html {
 
 body{
   background-color: var(--fondo);
+  font-family: var(--font);
 }

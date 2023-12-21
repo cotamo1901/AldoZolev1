@@ -31,65 +31,65 @@ const Countdown = () => {
   }, []);
 
   return (
-    <div className="flex justify-center items-center h-[86dvh]">
-      <div className="w-full max-w-xl px-4 md:max-w-full">
-        <div className="bg-gray-200 border rounded-2xl  p-8 w-full">
+    <div className="flex justify-center items-center sm:h-[38dvh] h-[40dvh]">
+      <div className="w-full max-w-xl sm:px-1 min-w-full ">
+        <div className="  p-3 sm:p-[1.3rem]  w-auto border-2	   border-stone-200 bg-[#f2f1ef]	 rounded-2xl">
           <h2 className="text-2xl font-bold mb-4 text-[#613625]">
-            La cuenta regresiva ha comenzado en:
+            ¡La cuenta regresiva ha comenzado, en:
           </h2>
           <div className="flex justify-start mb-4 font-bold">
-            <p className="text-sm text-[#ba5f4d] text-left">
-              Conéctate a este viaje sonoro
+            <p className="sm:text-2xl text-sm text-[#ba5f4d] text-left">
+              Conéctate a este viaje sonoro!
             </p>
           </div>
-          <div className="flex  justify-center gap-1 items-center ">
-            <div className="bg-gray-200 rounded-lg">
-              <div className="text-5xl font-bold text-center text-[#613625] px-5 py-5 bg-gray-300 rounded-lg">
+          <div className="flex  justify-center sm:gap-1 gap-0 items-center ">
+            <div className=" rounded-lg bg-gray-200 text-center  ms:px-5 px-2 sm:py-5 py-3">
+              <div className="sm:text-5xl text-2xl font-bold  text-[#613625]">
                 {timeLeft.days}
               </div>
-              <div className="text-xs uppercase text-[#613625] font-bold">
+              <div className="sm:text-xs text-[.50rem] uppercase text-[#613625] font-bold ">
                 días
               </div>
             </div>
-            <span className="text-4xl uppercase text-[#613625] font-bold pl-4 pb-5">
+            <span className="sm:text-4xl text-2xl uppercase text-[#613625] font-bold sm:pl-4 pl-1 sm:pb-5 pb-1">
               :
             </span>
             <div className="mx-2"></div>
-            <div className=" p-4 ">
-              <div className="text-5xl font-bold text-center text-[#613625]  px-5 py-5 bg-gray-300 rounded-lg">
+            <div className=" rounded-lg bg-gray-200 text-center  ms:px-5 px-2 sm:py-5 py-3">
+              <div className="sm:text-5xl text-2xl font-bold  text-[#613625]">
                 {timeLeft.hours}
               </div>
-              <div className="text-xs uppercase text-[#613625]  font-bold">
+              <div className="sm:text-xs text-[.50rem] uppercase text-[#613625] font-bold ">
                 horas
               </div>
             </div>
-            <span className="text-4xl uppercase text-[#613625] font-bold pl-4 pb-5">
+            <span className="sm:text-4xl text-2xl uppercase text-[#613625] font-bold sm:pl-4 pl-1 sm:pb-5 pb-1">
               :
             </span>
             <div className="mx-2"></div>
-            <div className="bg-gray-200 rounded-lg">
-              <div className="text-5xl font-bold text-center text-[#613625] px-5 py-5 bg-gray-300 rounded-lg">
+            <div className=" rounded-lg bg-gray-200 text-center  ms:px-5 px-2 sm:py-5 py-3">
+              <div className="sm:text-5xl text-2xl font-bold  text-[#613625]">
                 {timeLeft.minutes}
               </div>
-              <div className="text-xs uppercase text-[#613625] font-bold">
+              <div className="sm:text-xs text-[.50rem] uppercase text-[#613625] font-bold ">
                 minutos
               </div>
             </div>
-            <span className="text-4xl uppercase text-[#613625] font-bold pl-4 pb-5">
+            <span className="sm:text-4xl text-2xl uppercase text-[#613625] font-bold sm:pl-4 pl-1 sm:pb-5 pb-1">
               :
             </span>
             <div className="mx-2"></div>
-            <div className="bg-gray-200  rounded-lg">
-              <div className="text-5xl font-bold text-center text-[#613625]  px-5 py-5 bg-gray-300 rounded-lg">
+            <div className=" rounded-lg bg-gray-200 text-center  ms:px-5 px-2 sm:py-5 py-3">
+              <div className="sm:text-5xl text-2xl font-bold  text-[#613625]">
                 {timeLeft.seconds}
               </div>
-              <div className="text-xs uppercase text-[#613625] font-bold">
+              <div className="sm:text-xs text-[.50rem] uppercase text-[#613625] font-bold ">
                 segundos
               </div>
             </div>
           </div>
           <div className="flex justify-start mt-4">
-            <button className="bg-[#ba5f4d] text-white px-4 py-2 rounded">
+            <button className="bg-[#ba5f4d] border-white border-solid hover:bg-gray-500 hover:scale-105  hover:border-[#000] hober:border-2 text-white px-4 py-2 rounded">
               Reservar
             </button>
           </div>

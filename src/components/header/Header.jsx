@@ -33,7 +33,7 @@ export default function Header() {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-between">
                 <div className="flex flex-shrink-0 items-center">
-                  <h3 className="font-bold	text-xl ">Aldo Zolev</h3>
+                  <h3 className="font-bold	text-4xl text-[#fef3db] ">Aldo Zolev</h3>
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
@@ -45,7 +45,7 @@ export default function Header() {
                           item.current
                             ? "bg-[#613625] text-white"
                             : "text-[#613625] hover:bg-[#ba5f4d] hover:text-white",
-                          "rounded-md px-3 py-2 text-sm font-medium"
+                          "rounded-md px-3 py-2 text-base font-medium"
                         )}
                         aria-current={item.current ? "page" : undefined}
                       >
