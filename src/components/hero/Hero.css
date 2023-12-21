@@ -11,11 +11,13 @@
   width: 30%;
 }
 .custom-img {
-  width: 100%;
-  height: auto;
-  max-width: 357px;
-  border: 1px solid #80808091;
-  padding: 1rem;
+  .custom-img {
+    width: 100%;
+    height: auto;
+    max-width: 475px;
+    border: 1px solid #80808091;
+    padding: 1rem;
+  }
 }
 .countdown-container {
   width: 45%;
@@ -46,6 +48,7 @@
     margin-top: 20px;
     margin-right: 0;
     height: auto;
+    max-width: 18rem;
   }
   .countdown-container {
     width: 100%;
