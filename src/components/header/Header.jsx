@@ -36,7 +36,7 @@ export default function Header() {
                   <h3 className="font-bold	text-4xl text-[#fef3db] ">ALDO ZOLEV</h3>
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
-                  <div className="flex space-x-4 uppercase" >
+                  <div className="flex space-x-4 uppercase font-bold" >
                     {navigation.map((item) => (
                       <a
                         key={item.name}
