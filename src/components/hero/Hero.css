@@ -32,8 +32,9 @@
 }
 .custom-heading {
   font-size: 1.875rem;
-  font-weight: 600;
-  color: #374151;
+  font-weight: 700;
+  color: var(--cafe);
+  text-transform: uppercase;
 }
 .image__flyer {
   background-image: url(/public/img/energy.svg);

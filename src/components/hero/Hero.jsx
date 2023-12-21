@@ -2,6 +2,7 @@
 
 import Countdown from "../countdown/Countdown";
 import "./Hero.css";
+import "./../../styles/global.css"
 
 export const Hero = () => {
   return (
