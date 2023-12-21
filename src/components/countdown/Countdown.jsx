@@ -34,7 +34,7 @@ const Countdown = () => {
     <div className="flex justify-center items-center sm:h-[38dvh] h-[40dvh]">
       <div className="w-full max-w-xl sm:px-1 min-w-full ">
         <div className="  p-3 sm:p-[1.3rem]  w-auto border-2	   border-stone-200 bg-[#f2f1ef]	 rounded-2xl">
-          <h2 className="text-2xl font-bold mb-4 text-[#613625]">
+          <h2 className="text-4xl font-bold mb-4 text-[#613625]">
             ¡La cuenta regresiva ha comenzado, en:
           </h2>
           <div className="flex justify-start mb-4 font-bold">
@@ -47,11 +47,11 @@ const Countdown = () => {
               <div className="sm:text-5xl text-2xl font-bold  text-[#613625]">
                 {timeLeft.days}
               </div>
-              <div className="sm:text-xs text-[.50rem] uppercase text-[#613625] font-bold ">
+              <div className="sm:text-lg text-[.50rem] uppercase text-[#613625] font-bold ">
                 días
               </div>
             </div>
-            <span className="sm:text-4xl text-2xl uppercase text-[#613625] font-bold sm:pl-4 pl-1 sm:pb-5 pb-1">
+            <span className="sm:text-5xl text-2xl uppercase text-[#613625] font-bold sm:pl-4 pl-1 sm:pb-5 pb-1">
               :
             </span>
             <div className="mx-2"></div>
@@ -88,8 +88,8 @@ const Countdown = () => {
               </div>
             </div>
           </div>
-          <div className="flex justify-start mt-4">
-            <button className="bg-[#ba5f4d] border-white border-solid hover:bg-gray-500 hover:scale-105  hover:border-[#000] hober:border-2 text-white px-4 py-2 rounded">
+          <div className="flex justify-center mt-4">
+            <button className=" font-bold bg-[#ba5f4d] border-white border-solid hover:bg-gray-500 hover:scale-105  hover:border-[#000] hober:border-2 text-white px-4 py-2 rounded">
               Reservar
             </button>
           </div>
