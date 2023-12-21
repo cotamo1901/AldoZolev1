@@ -89,7 +89,7 @@ const Countdown = () => {
             </div>
           </div>
           <div className="flex justify-start mt-4">
-            <button className="bg-[#ba5f4d] border-white border-solid hover:bg-gray-500   hover:border-[#000] hober:border-2 text-white px-4 py-2 rounded">
+            <button className="bg-[#ba5f4d] border-white border-solid hover:bg-gray-500 hover:scale-105  hover:border-[#000] hober:border-2 text-white px-4 py-2 rounded">
               Reservar
             </button>
           </div>
