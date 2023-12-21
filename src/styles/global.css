@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600;700&display=swap');
 
 :root {
   --rosa-header: #c6a08d;
@@ -10,7 +10,7 @@
   --fondo:#fef3db;
 
  /*texto de sitio */
- --font: 'Roboto', sans-serif;
+ --font: 'Oswald', sans-serif;
 }
 
 

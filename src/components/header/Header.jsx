@@ -33,10 +33,10 @@ export default function Header() {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-between">
                 <div className="flex flex-shrink-0 items-center">
-                  <h3 className="font-bold	text-4xl text-[#fef3db] ">Aldo Zolev</h3>
+                  <h3 className="font-bold	text-4xl text-[#fef3db] ">ALDO ZOLEV</h3>
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
-                  <div className="flex space-x-4">
+                  <div className="flex space-x-4 uppercase font-bold" >
                     {navigation.map((item) => (
                       <a
                         key={item.name}
